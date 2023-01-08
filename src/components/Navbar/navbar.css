@@ -1,0 +1,54 @@
+.ghit__navbar {
+    background-color: #4f77ab1e;
+    padding: 5px 50px 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ghit__navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ghit__navbar-logo img {
+    width: 70px;
+    display: inline-block;
+}
+
+.ghit__navbar-logo h4 {
+    background: var(--color-button);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    font-family: var(--font-bold);
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+
+.ghit__navbar-links {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.ghit__navbar-links p {
+    color: #fff;
+    width: fit-content;
+    transition: all 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ghit__navbar-links p:hover {
+    background: var(--color-gradient);
+    transform: scale(1.1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

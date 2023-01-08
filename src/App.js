@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navbar } from "./components";
+import { Header, WWO, About, System, Footer, CTA } from "./containers";
+import { BTT, BTB } from "./assets/images";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Navbar />
+      <Header />
+      <WWO />
+      <About />
+      <System />
+      <CTA />
+      <Footer />
+      <a href="#heading" className="ghit__BTT">
+        <img src={BTT} />
+      </a>
+      <a href="#cta" className="ghit__BTB">
+        <img src={BTB} />
+      </a>
     </div>
   );
 }

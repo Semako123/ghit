@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-light);
+  background-color: var(--color-background);
+}
+
+.section__padding {
+  padding: 40px;
+}
+
+.animated-gradient {
+  animation: animateBg 14s linear infinite;
+  background-image: linear-gradient(45deg, #428ced 0%, #1b63c2 100%);
+  background-size: 100% 300%;
+}
+
+#root{
+  height: max-content;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+:root {
+  --font-bold: 'Gilroy-bold', sans-serif;
+  --font-light: 'Gilroy', sans-serif;
+  --color-background: #00020b;
+  --color-dark: #aee3f3;
+  --color-light: #00BAE3;
+  --color-button: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  --color-gradient: linear-gradient(90deg, #0094ea 0%, #003194 100%);
+    --color-gradient2: linear-gradient(150deg, #0094ea 0%, #dd10efe7 90%);
+  --color-border: #fbfbfb16;
 }

@@ -1,0 +1,53 @@
+.ghit__courses {
+    color: #fff;
+}
+
+.ghit__courses-filter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ghit__courses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ghit__courses h3 {
+    background: var(--color-gradient2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin-left: 30px;
+    font-family: var(--font-bold);
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.ghit__courses-filter h5 {
+    font-size: 15px;
+    color: rgb(164, 235, 255);
+}
+
+.ghit__courses-filter button {
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: var(--color-gradient);
+    color: #fff;
+    transition: transform 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ghit__courses-filter button:hover {
+    transform: translateY(-3px);
+}
+
+.ghit__courses-container_title{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}

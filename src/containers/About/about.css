@@ -1,0 +1,62 @@
+.ghit__about {
+    border-radius: 0px 300px 300px 0px;
+    padding: 30px 0px 40px 80px;
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+
+.ghit__about-text {
+    width: 60%;
+}
+
+.ghit__about-text h3 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.ghit__about-text p {
+    font-size: 14px;
+    width: 90%;
+    color: var(--color-dark);
+}
+
+.ghit__about-cards {
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-left: -50px;
+}
+
+.ghit__about-cards2{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+
+/* .ghit__about-cards div:nth-child(1) {
+    position: absolute;
+    right: 320px;
+    top: 10px;
+}
+
+.ghit__about-cards div:nth-child(2){
+    position: absolute;
+    right: 110px;
+    top: 80px;   
+}
+
+.ghit__about-cards div:nth-child(3) {
+    position: absolute;
+    right: 280px;
+    top: 180px;
+}
+
+.ghit__about-cards div:nth-child(4) {
+    position: absolute;
+    right: 120px;
+    top: 280px;
+} */

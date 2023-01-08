@@ -1,0 +1,19 @@
+.ghit__button {
+    cursor: pointer;
+    color: #fff;
+    background: var(--color-button);
+    width: fit-content;
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px -9px #00BAE3;
+    transition: 300ms transform cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ghit__button:hover {
+    transform: scale(1.1) translateY(-2px);
+
+}

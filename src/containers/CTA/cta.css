@@ -1,0 +1,23 @@
+.ghit__cta {
+    background: var(--color-gradient2);
+    margin: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghit__cta-content{
+    width: 70%;
+}
+
+.ghit__cta p{
+    width: 80%;
+    font-size: 15px;
+}
+
+.ghit__cta-content h6{
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: var(--font-bold);
+}
