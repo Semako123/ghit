@@ -1,0 +1,25 @@
+.ghit__perks{
+    display: flex;
+    flex-direction: column;
+width: 350px;
+    color: #fff;
+}
+
+.ghit__perks-deco{
+    height: 2px;
+    width:60px;
+    background:var(--color-gradient2);
+    margin-bottom:5px ;
+}
+
+.ghit__perks h4{
+    margin: 0;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.ghit__perks p{
+    margin: 0;
+    font-size:11px ;
+}

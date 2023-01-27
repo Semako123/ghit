@@ -21,3 +21,32 @@
     margin: 20px 0;
     font-family: var(--font-bold);
 }
+
+@media screen and (max-width:750px) {
+    .ghit__cta{
+        flex-direction: column;
+    }
+    .ghit__cta-content{
+        width: 100%;
+        text-align: center;
+    }
+    .ghit__cta-content p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .ghit__cta{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ghit__cta-content h6{
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .ghit__cta-content p{
+        font-size: 11px;
+    }
+}

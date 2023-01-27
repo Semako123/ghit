@@ -11,6 +11,7 @@
 
 .ghit__system-image {
     width: 45%;
+    display: flex;
     position: relative;
 }
 
@@ -31,4 +32,36 @@
     font-family: var(--font-bold);
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width:950px) {
+    .ghit__system{
+        flex-direction: column;
+    }
+    .ghit__system-image{
+        width: 100%;
+    }
+    .ghit__system-content{
+        width: 100%;
+    }
+    .ghit__system-content p{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .ghit__system-content_section{
+        padding-left: 10px ;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ghit__system-content img{
+        display: none;
+    }
+    .ghit__system-content p{
+        width: 150%;
+    }
+    .ghit__system-content_section{
+    }
 }

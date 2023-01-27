@@ -25,6 +25,9 @@
 }
 
 .ghit__wwo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin-top: -80px;
 }
@@ -49,4 +52,28 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:1100px){
+    .ghit__wwo-image img{
+        width: 450px;
+        height: 450px;
+    }
+    
+}
+
+@media screen and (max-width:950px) {
+    .ghit__wwo{
+        flex-direction: column-reverse;
+    }
+    .ghit__wwo-text{
+        text-align: center;
+    }
+    .ghit__wwo-text h4{
+        margin: auto;
+    }
+    .ghit__wwo-text_main{
+        justify-content: center;
+    }
+ 
 }

@@ -1,0 +1,52 @@
+.ghit__pcard {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(160deg, #ffffff 0%, #47bcd3 0%, #57dfe3 50%, #64a0ff 50%, #4856f6 70%, #3e4efe 70%);
+    ;
+    transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ghit__pcard-content {
+    padding: 30px;
+}
+
+.ghit__pcard-content h4 {
+    text-align: center;
+    /* text-shadow: rgba(0, 0, 0, 0.424) 1px 2px 2px; */
+    font-family: var(--font-bold);
+    font-size: 20px !important;
+    line-height: 1.8em !important;
+    color: rgba(255, 255, 255, 0);
+    text-shadow:
+        0 0 rgb(255, 255, 255),
+        0 1em #1d3e49;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.ghit__pcard-content h4:hover {
+    text-shadow:
+        0 1em #202020,
+        0 0 #ffffff;
+}
+
+.ghit__pcard-content p {
+    /* color: #fff; */
+    font-size: 13px;
+    text-align: center;
+    color: #121212;
+
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.ghit__pcard:hover {
+    transform: scale(1.1);
+
+}

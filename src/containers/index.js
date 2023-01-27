@@ -5,3 +5,5 @@ export { default as System } from "../containers/System/System";
 export { default as Footer } from "../containers/Footer/Footer";
 export { default as CTA } from "../containers/CTA/CTA";
 export { default as Courses } from "../containers/Courses/Courses";
+export { default as AdultCourses } from "../containers/AdultCourses/AdultCourses";
+export { default as Partnership } from "../containers/Partnership/Partnership";

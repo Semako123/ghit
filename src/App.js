@@ -14,12 +14,12 @@ function App() {
       <System />
       <CTA />
       <Footer />
-      <a href="#heading" className="ghit__BTT">
+      {/* <a href="#heading" className="ghit__BTT">
         <img src={BTT} />
       </a>
       <a href="#cta" className="ghit__BTB">
         <img src={BTB} />
-      </a>
+      </a> */}
     </div>
   );
 }

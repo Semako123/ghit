@@ -1,0 +1,11 @@
+.ghit__acourses h3{
+    background: var(--color-gradient2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin-left: 30px;
+    font-family: var(--font-bold);
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}

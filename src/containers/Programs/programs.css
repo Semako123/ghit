@@ -1,0 +1,49 @@
+.ghit__programs {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.ghit__programs h4 {
+    background: var(--color-gradient2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-bold);
+    font-size: 45px;
+    width: fit-content;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.ghit__programs-courses {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.ghit__programs-courses img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1) transform;
+}
+
+.ghit__programs-courses div {
+    width: 500px;
+    height: 480px;
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ghit__programs-courses h5 {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.ghit__programs-courses img:hover {
+    transform: scale(1.4);
+}

@@ -15,6 +15,7 @@ const WWO = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInRight"
           animateOut="animate__fadeOutRight"
+          offset={100}
         >
           <h4>What We Offer</h4>
         </AnimationOnScroll>

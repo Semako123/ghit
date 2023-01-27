@@ -1,0 +1,46 @@
+.ghit__partnership {
+    color: #fff;
+}
+
+.ghit__partnership-perksContainer {
+    background: var(--color-gradient3);
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.ghit__partnership-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+
+.ghit__partnership-perksContainer h3 {
+    background: var(--color-gradient2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    font-family: var(--font-bold);
+    font-size: 30px;
+}
+
+.ghit__partnership-perks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ghit__partnership-cardContainer h4 {
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: var(--font-bold);
+    background: var(--color-button);
+    width: fit-content;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

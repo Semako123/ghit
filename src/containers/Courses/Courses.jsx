@@ -54,18 +54,6 @@ const Courses = () => {
       img: course1,
     },
     {
-      title: "Programming with Dobot AI Starter/MBot MEGA. Part 1",
-      category: "Junior",
-      duration: "40",
-      img: course2,
-    },
-    {
-      title: "Programming with Dobot AI Starter/MBot MEGA. Part 2",
-      category: "Junior",
-      duration: "40",
-      img: course3,
-    },
-    {
       title: "Animation with Scratch (Stories). Part 1",
       category: "Junior",
       duration: "40",
@@ -89,6 +77,19 @@ const Courses = () => {
       duration: "40",
       img: course7,
     },
+    {
+      title: "Robot Basic Input and Output. Part 1",
+      category: "Junior",
+      duration: "40",
+      img: course2,
+    },
+    {
+      title: "Robot Basic Input and Output. Part 2",
+      category: "Junior",
+      duration: "40",
+      img: course3,
+    },
+
     {
       title: "Tinkering with robots. Part 1",
       category: "Junior",
@@ -283,10 +284,11 @@ const Courses = () => {
             {filter} {filter === "All" ? " Categories" : "Category"}
           </h5>
           <div className="ghit__courses-container">
-            {List.map((x) => (
+            {List.map((x, index) => (
               <AnimationOnScroll
                 animateIn="animate__flipInY"
                 animateOut="animate__flipOutY"
+                key={index}
               >
                 <CourseCard
                   title={x.title}

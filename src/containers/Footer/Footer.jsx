@@ -12,12 +12,14 @@ const Footer = () => {
           <AnimationOnScroll
             animateIn="animate__fadeInUp"
             animateOut="fadeOutUp"
+            offset={10}
           >
             <h4>GHIT</h4>
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInUp"
             animateOut="fadeOutUp"
+            offset={10}
           >
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique

@@ -3,12 +3,14 @@ import "./header.css";
 import { back1, landingIco } from "../../assets/images";
 import { Button } from "../../components";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <div className="ghit__header">
       <img src={back1} />
-      <div className="ghit__header-content section__padding" >
+      <div className="ghit__header-content section__padding">
         <div className="ghit__header-content_text">
           <AnimationOnScroll
             animateIn="animate__fadeInLeft"
@@ -27,7 +29,13 @@ const Header = () => {
             animateIn="animate__fadeInUp"
             animateOut="animate__fade"
           >
-            <Button>Get Started</Button>
+            <Button
+              onClick={() => {
+                navigate("/programs");
+              }}
+            >
+              Get Started
+            </Button>
           </AnimationOnScroll>
         </div>
         <div className="ghit__header-content_image">

@@ -35,6 +35,8 @@ export { default as courseS21 } from "./courseS21.jpg";
 export { default as courseS22 } from "./courseS22.jpg";
 export { default as courseS23 } from "./courseS23.png";
 export { default as courseS24 } from "./courseS24.jpg";
+export { default as prog1 } from "./prog1.jpg";
+export { default as prog2 } from "./prog2.jpg";
 export { default as back5 } from "./back5.png";
 export { default as landingIco } from "./landingIco.png";
 export { default as ico1 } from "./ico1.png";
