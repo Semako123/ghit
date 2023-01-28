@@ -1,8 +1,9 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   overflow-x: hidden;
 }
@@ -22,7 +23,36 @@ body {
   background-size: 100% 300%;
 }
 
-#root{
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#root {
   height: max-content;
 }
 
@@ -36,16 +66,16 @@ body {
   }
 }
 
-@media screen and (max-width:1100px){
-  .section__padding{
+@media screen and (max-width:1100px) {
+  .section__padding {
     padding: 40px 30px;
   }
-  
+
 }
 
 @media screen and (max-width:500px) {
-  .section__padding{
-    padding: 30px 20px ;
+  .section__padding {
+    padding: 30px 20px;
   }
 }
 
@@ -56,9 +86,9 @@ body {
   --color-dark: #aee3f3;
   --color-light: #00BAE3;
   --color-button: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-  
+
   --color-gradient3: linear-gradient(160deg, #000f4d 80%, #2574c3 100%);
   --color-gradient: linear-gradient(90deg, #0094ea 0%, #003194 100%);
-    --color-gradient2: linear-gradient(150deg, #0094ea 0%, #dd10efe7 90%);
+  --color-gradient2: linear-gradient(150deg, #0094ea 0%, #dd10efe7 90%);
   --color-border: #fbfbfb16;
 }

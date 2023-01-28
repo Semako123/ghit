@@ -1,5 +1,5 @@
 .ghit__navbar {
-    background-color: #4f77ab1e;
+    background-color: #000e21c5;
     padding: 5px 50px 5px 50px;
     display: flex;
     align-items: center;
@@ -42,6 +42,7 @@ a {
 
 .ghit__navbar-links p {
     color: #fff;
+    font-weight: 600;
     width: fit-content;
     transition: all 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -51,4 +52,48 @@ a {
     transform: scale(1.1);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.ghit__navbar-links_mobile {
+    position: absolute;
+    top: 60px;
+    border-radius: 5px;
+    right: 10px;
+    z-index: 10;
+    background-color: #000b1a;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width:110px;
+
+}
+
+.ghit__navbar-links_mobile p {
+    color: #fff;
+    margin: 13px 0;
+    width: fit-content;
+    text-align: left;
+    font-weight: 600;
+}
+
+@media screen and (max-width:750px) {
+    .ghit__navbar-links{
+        display: none;
+    }
+    .ghit__navbar-logo img{
+        width: 45px;
+        height: 45px;
+    }
+    .ghit__navbar-logo h4{
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ghit__navbar{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

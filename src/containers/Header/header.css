@@ -13,6 +13,7 @@
 
 .ghit__header-content {
     display: flex;
+    z-index:-1;
     margin: 110px 0 150px 0;
 }
 
