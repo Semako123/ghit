@@ -49,3 +49,22 @@
 .ghit__programs-courses img:hover {
     transform: scale(1.4);
 }
+
+@media screen and (max-width:1100px) {
+    .ghit__programs-courses {
+        flex-direction: column;
+    }
+
+    .ghit__programs h4 {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .ghit__programs-courses div {
+        width: 320px;
+        height: 350px;
+        border-radius: 10px;
+    }
+}
