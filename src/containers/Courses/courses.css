@@ -1,5 +1,7 @@
 .ghit__courses {
     color: #fff;
+    position: relative;
+    z-index: -1;
 }
 
 .ghit__courses-filter {
@@ -47,8 +49,7 @@
     transform: translateY(-3px);
 }
 
-.ghit__courses-container_title{
+.ghit__courses-container_title {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-
