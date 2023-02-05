@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     padding: 30px 0;
+    z-index: -1;
+    position: relative;
 }
 
 .ghit__programs h4 {

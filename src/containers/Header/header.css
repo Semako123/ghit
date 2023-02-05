@@ -2,18 +2,18 @@
     display: flex;
     width: 100%;
     align-items: center;
+    position: relative;
+    z-index: -1;
 }
 
 .ghit__header img {
     width: 100%;
     position: absolute;
     top: 0;
-    z-index: -1;
 }
 
 .ghit__header-content {
     display: flex;
-    z-index:-1;
     margin: 110px 0 150px 0;
 }
 

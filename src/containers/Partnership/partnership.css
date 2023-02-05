@@ -1,5 +1,8 @@
 .ghit__partnership {
     color: #fff;
+    z-index: 10;
+    position: relative;
+    z-index: -1;
 }
 
 .ghit__partnership-perksContainer {
@@ -43,4 +46,11 @@
     width: fit-content;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:500px) {
+    .ghit__partnership-perksContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }

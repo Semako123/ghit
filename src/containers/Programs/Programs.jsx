@@ -9,7 +9,7 @@ const Programs = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <div className="ghit__programs">
         <AnimationOnScroll animateIn="animate__fadeInLeft" offset={0}>
           <h4>Explore GHIT Programs and Courses</h4>

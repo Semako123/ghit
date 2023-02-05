@@ -47,7 +47,7 @@ const Navbar = () => {
             <a>Partnership</a>
           </p>
         </div>
-        <div>
+        <div className="ghit__navbar-menu">
           {toggle ? (
             <RiCloseLine
               color="white"

@@ -4,6 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 1000;
 }
 
 a {
@@ -58,8 +60,8 @@ a {
     position: absolute;
     top: 60px;
     border-radius: 5px;
+    z-index: 1000;
     right: 10px;
-    z-index: 10;
     background-color: #000b1a;
     padding: 2rem;
     display: flex;
@@ -75,6 +77,12 @@ a {
     width: fit-content;
     text-align: left;
     font-weight: 600;
+}
+
+@media screen and (min-width:750px) {
+    .ghit__navbar-menu{
+        display: none;
+    }
 }
 
 @media screen and (max-width:750px) {

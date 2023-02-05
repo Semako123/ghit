@@ -1,3 +1,9 @@
+.ghit__app{
+    position: relative;
+    z-index: -1;
+}
+
+
 .ghit__BTT {
     position: fixed;
     bottom: 40px;

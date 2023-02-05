@@ -6,6 +6,7 @@ import "animate.css/animate.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes";
 import AnimatedCursor from "react-animated-cursor";
+import { Navbar } from "./components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

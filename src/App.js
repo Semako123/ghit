@@ -5,8 +5,7 @@ import { BTT, BTB } from "./assets/images";
 
 function App() {
   return (
-    <div>
-      
+    <>
       <Navbar />
       <Header />
       <WWO />
@@ -20,7 +19,7 @@ function App() {
       <a href="#cta" className="ghit__BTB">
         <img src={BTB} />
       </a> */}
-    </div>
+    </>
   );
 }
 
